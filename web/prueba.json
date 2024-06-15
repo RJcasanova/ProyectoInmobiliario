@@ -1,0 +1,15 @@
+[
+    {
+        "model": "web.usuario",
+        "pk":1,
+        "fields":{
+            "nombres": "Bernardo David",
+            "apellidos": "Garrido Sandoval",
+            "rut":"12331123",
+            "direccion":"direccion5",
+            "telefono":"345213",
+            "correo":"correo@chile.cl",
+            "tipo_usuario":"2"
+        }
+    }
+]

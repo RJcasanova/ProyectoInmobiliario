@@ -1,0 +1,6 @@
+<h1>Actualizar datos</h1>
+    <form method="POST">
+        {% csrf_token %}
+        {{u_form.as_p}}
+        <button>Actualizar</button>
+    </form>

@@ -1,0 +1,6 @@
+nombre1,descripcion1,San Ramón,Región Metropolitana de Santiago
+nombre1,descripcion1,Vitacura,Región Metropolitana de Santiago
+nombre1,descripcion1,Vitacura,Región Metropolitana de Santiago
+nombre1,descripcion1,Puente Alto,Región Metropolitana de Santiago
+nombre1,descripcion1,Puente Alto,Región Metropolitana de Santiago
+nombre1,descripcion1,Pirque,Región Metropolitana de Santiago

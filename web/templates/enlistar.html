@@ -1,0 +1,22 @@
+<h1>Bienvenidos</h1>
+        {% if user.is_authenticated %}
+            {% for inmb in inmuebles %}
+                <ul>
+                    <li>{{inmb.id}}</li>
+                    <li>{{inmb.nombre}}</li>
+                    <li>{{inmb.descripcion}}</li>
+                    <li>{{inmb.m2_construidos}}</li>
+                    <li>{{inmb.m2_totales}}</li>
+                    <li>{{inmb.cantidad_estacionamientos}}</li>
+                    <li>{{inmb.cantidad_habitaciones}}</li>
+                    <li>{{inmb.cantidad_banos}}</li>
+                    <li>{{inmb.direccion}}</li>
+                    <li>{{inmb.comuna}}</li>
+                    <li>{{inmb.tipo_inmueble}}</li>
+                    <li>{{inmb.precio_arriendo}}</li>
+
+                </ul>
+            {% endfor %}
+        {% else %}
+            <p>Debe iniciar sesion para ver listado</p>
+        {% endif %}

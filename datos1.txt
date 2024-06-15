@@ -1,0 +1,6 @@
+nombre1,nombre1,descripcion1,San Ramón
+nombre1,descripcion1,Vitacura
+nombre1,descripcion1,Vitacura
+nombre1,descripcion1,Puente Alto
+nombre1,descripcion1,Puente Alto
+nombre1,descripcion1,Pirque
