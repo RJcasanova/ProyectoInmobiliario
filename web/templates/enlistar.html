@@ -1,4 +1,4 @@
-<h1>Bienvenidos</h1>
+<h1>Lista de inmuebles</h1>
         {% if user.is_authenticated %}
             {% for inmb in inmuebles %}
                 <ul>
@@ -11,8 +11,8 @@
                     <li>{{inmb.cantidad_habitaciones}}</li>
                     <li>{{inmb.cantidad_banos}}</li>
                     <li>{{inmb.direccion}}</li>
-                    <li>{{inmb.comuna}}</li>
-                    <li>{{inmb.tipo_inmueble}}</li>
+                    <li>{{inmb.comuna.nombre}}</li>
+                    <li>{{inmb.tipo_inmueble.nombre}}</li>
                     <li>{{inmb.precio_arriendo}}</li>
 
                 </ul>
